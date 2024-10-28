@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuyên truyền An toàn Giao thông</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tuyên truyền An toàn Giao thông</h1>
+        <p>Bảo vệ an toàn cho chính mình và cộng đồng</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="#rules">Luật Giao Thông</a></li>
+            <li><a href="#lessons">Bài học An toàn</a></li>
+            <li><a href="activities.html">Hoạt động</a></li>
+            <li><a href="#community">Góc Cộng đồng</a></li>
+        </ul>
+    </nav>
+
+    <section id="rules">
+        <h2>Luật Giao Thông Cơ Bản và hướng dẫn cách đeo mũ bảo hiểm đúng cách</h2>
+        <p>Thông tin về những luật lệ cần tuân thủ khi tham gia giao thông.</p>
+        <ul>
+            <li>Đội mũ bảo hiểm khi đi xe máy, xe đạp điện.</li>
+            <li>Tuân thủ tín hiệu đèn giao thông và biển báo.</li>
+            <li>Không vượt đèn đỏ và không lái xe sau khi uống rượu bia.</li>
+        </ul>
+        <img src="images/traffic_sign.jpg" alt="Hình ảnh biển báo giao thông">
+    </section>
+
+    <section id="lessons">
+        <h2>Bài học An toàn</h2>
+        <p>Tuân thủ 5 điều luật về đi xe đạp an toàn</p>
+        <img src="images/bike_rules.jpg" alt="5 điều luật về đi xe đạp an toàn">
+        <ul>
+            <li class="bike_rules">Về cơ bản, người đi xe trên lòng đường và chỉ được đi trên vỉa hè trong những trường hợp đặc biệt.</li>
+            <li class="bike_rules">Trên lòng đường, người đi xe đạp nên đi về phía bên trái.</li>
+            <li class="bike_rules">Khi đi trên vỉa hè, người đi xe đạp phải ưu tiên người đi bộ và đi sát về phía lòng đường.</li>
+            <li class="bike_rules">Người đi xe cần phải tuân thủ các qui tắc an toàn.</li>
+            <li class="bike_rules">Trẻ em ngồi trên xe đạp phải đội mũ bảo hiểm.</li>
+        </ul>
+
+        <p>Video cách đi xe đạp điện an toàn:</p>
+        <video width="50%" src="Video/ĐOẠN 15. RRR - Trim.mp4" controls></video>
+    </section>
+
+    <section id="community">
+        <h2>Góc Cộng đồng</h2>
+        <div id="community-posts">
+            <!-- Các câu chuyện chia sẻ từ cộng đồng -->
+        </div>
+        <form id="community-form">
+            <h3>Chia sẻ câu chuyện của bạn</h3>
+            <textarea id="story" placeholder="Chia sẻ câu chuyện của bạn tại đây..."></textarea>
+            <button type="button" onclick="addStory()">Gửi</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2023 Tuyên truyền An toàn Giao thông. Bảo vệ cuộc sống của bạn và mọi người.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
